@@ -1,0 +1,52 @@
+❰bkrasniakov❙~/Documents/gl-base-camp-2020(gitmain)❱✔≻ touch HW1_GIT.txt
+❰bkrasniakov❙~/Documents/gl-base-camp-2020(git≠main)❱✔≻ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	HW1_GIT.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+❰bkrasniakov❙~/Documents/gl-base-camp-2020(git≠main)❱✔≻ git add HW1_GIT.txt 
+❰bkrasniakov❙~/Documents/gl-base-camp-2020(git:main)❱✔≻ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   HW1_GIT.txt
+
+❰bkrasniakov❙~/Documents/gl-base-camp-2020(git:main)❱✔≻ git commit -m "Homework 1, Task 1"
+[main 21ab8d4] Homework 1, Task 1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 HW1_GIT.txt
+❰bkrasniakov❙~/Documents/gl-base-camp-2020(gitmain)❱✔≻ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+❰bkrasniakov❙~/Documents/gl-base-camp-2020(gitmain)❱✔≻ git reset --soft HEAD^
+❰bkrasniakov❙~/Documents/gl-base-camp-2020(git:main)❱✔≻ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   HW1_GIT.txt
+
+❰bkrasniakov❙~/Documents/gl-base-camp-2020(git:main)❱✔≻ git restore --staged HW1_GIT.txt
+❰bkrasniakov❙~/Documents/gl-base-camp-2020(git≠main)❱✔≻ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	HW1_GIT.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
