@@ -1,0 +1,65 @@
+❰bkrasniakov❙~/Documents/gl-base-camp-2020(gitmain)❱✔≻ git log --oneline --decorate --graph --all
+* 21ab8d4 (HEAD -> main) Homework 1, Task 1
+*   e5cf631 fix merge_conflict
+|\  
+| * 2393fac (hotfix) alse prepared merge_conflict file
+* | d311233 prepared merge_conflict file
+|/  
+| *   f197c86 (branch_lecture2) Merge branch 'brach_lecture' into branch_lecture2
+| |\  
+| | * a85884b (brach_lecture) untracked file change
+| |/  
+|/|   
+| * dbf68ec README file change
+|/  
+* 17238e6 (origin/main, origin/HEAD) Initial commit
+❰bkrasniakov❙~/Documents/gl-base-camp-2020(git≠main)❱✔≻ git checkout 17238e6
+Note: switching to '17238e6'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 17238e6 Initial commit
+❰bkrasniakov❙~/Documents/gl-base-camp-2020❱✔≻ git log --oneline --decorate --graph --all
+*   e5cf631 (main) fix merge_conflict
+|\  
+| * 2393fac (hotfix) alse prepared merge_conflict file
+* | d311233 prepared merge_conflict file
+|/  
+| *   f197c86 (branch_lecture2) Merge branch 'brach_lecture' into branch_lecture2
+| |\  
+| | * a85884b (brach_lecture) untracked file change
+| |/  
+|/|   
+| * dbf68ec README file change
+|/  
+* 17238e6 (HEAD, origin/main, origin/HEAD) Initial commit
+❰bkrasniakov❙~/Documents/gl-base-camp-2020❱✔≻ git checkout -b HW1_GIT_Task2
+Switched to a new branch 'HW1_GIT_Task2'
+❰bkrasniakov❙~/Documents/gl-base-camp-2020(git≠HW1_GIT_Task2)❱✔≻ git log --oneline --decorate --graph --all
+*   e5cf631 (main) fix merge_conflict
+|\  
+| * 2393fac (hotfix) alse prepared merge_conflict file
+* | d311233 prepared merge_conflict file
+|/  
+| *   f197c86 (branch_lecture2) Merge branch 'brach_lecture' into branch_lecture2
+| |\  
+| | * a85884b (brach_lecture) untracked file change
+| |/  
+|/|   
+| * dbf68ec README file change
+|/  
+* 17238e6 (HEAD -> HW1_GIT_Task2, origin/main, origin/HEAD) Initial commit
+
