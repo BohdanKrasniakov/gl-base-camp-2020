@@ -1,0 +1,16 @@
+❰bkrasniakov❙~/Documents/gl-base-camp-2020(git:HW3_LINUX)❱✔≻ ls file.txt 2> execution.log || ls 2>&1 >> execution.log
+❰bkrasniakov❙~/Documents/gl-base-camp-2020(git:HW3_LINUX)❱✔≻ cat execution.log 
+ls: cannot access 'file.txt': No such file or directory
+conflicting_file.txt
+current_folder.sh
+errors.log
+execution.log
+HW1_GIT_Task1.txt
+HW1_GIT_Task2.txt
+HW1_GIT_Task3
+HW1_GIT_Task3.txt
+HW2_GIT.txt
+merge_conflict
+README.md
+task1.txt
+
