@@ -1,0 +1,13 @@
+❰bkrasniakov❙~/Documents/gl-base-camp-2020(git:HW3_LINUX)❱✔≻ mkdir -p ~/f1/f2/f3/f4/f5/f6
+❰bkrasniakov❙~/Documents/gl-base-camp-2020(git:HW3_LINUX)❱✔≻ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                             eiusmod tempor incididunt ut labore et dolore magna aliqua. " > ~/f1/file.txt
+❰bkrasniakov❙~/Documents/gl-base-camp-2020(git:HW3_LINUX)❱✔≻ cat ~/f1/file.txt 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+❰bkrasniakov❙~/Documents/gl-base-camp-2020(git:HW3_LINUX)❱✔≻ cp ~/f1/file.txt ~/f1/f2/f3/f4/f5/f6/
+❰bkrasniakov❙~/Documents/gl-base-camp-2020(git:HW3_LINUX)❱✔≻ cd
+❰bkrasniakov❙~❱✔≻ find . -name file.txt
+./f1/f2/f3/f4/f5/f6/file.txt
+./f1/file.txt
+❰bkrasniakov❙~❱✔≻ rm f1/f2/f3/f4/f5/f6/file.txt
+
