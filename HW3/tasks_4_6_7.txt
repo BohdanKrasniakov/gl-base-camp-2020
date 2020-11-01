@@ -1,0 +1,5 @@
+❰bkrasniakov❙~/Documents/gl-base-camp-2020(git:HW3_LINUX)❱✔≻ echo "#!/bin/bash
+                                                             echo \"The current location is \$(pwd)\"
+                                                             " > current_folder.sh && sudo chown root current_folder.sh && su -c "chmod +x current_folder.sh" && sudo ./current_folder.sh
+Password: 
+The current location is /home/bkrasniakov/Documents/gl-base-camp-2020
