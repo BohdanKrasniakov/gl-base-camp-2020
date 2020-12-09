@@ -13,28 +13,32 @@ class SearchActions(ABC):
 
 
 class GoogleSearchActions(SearchActions):
-    def __init__(self, driver):
-        self.SEARCH_PAGE = pages.GoogleSearchPage(driver)
+    def __init__(self, browser):
+        self.SEARCH_PAGE = pages.GoogleSearchPage(browser)
         self.SEARCH_PAGE.open()
 
     def open_search_result_by_address(self, address):
-        self.SEARCH_PAGE.get_search_result_by_address(address).click()
+        result = self.SEARCH_PAGE.get_search_result_by_address(address)
+        self.SEARCH_PAGE.click(result)
 
 
 class PyPiSearchActions(SearchActions):
-    def __init__(self, driver):
-        self.SEARCH_PAGE = pages.PyPiSearchPage(driver)
+    def __init__(self, browser):
+        self.SEARCH_PAGE = pages.PyPiSearchPage(browser)
 
     def open_the_second_search_result(self, keyword):
         self.search_by_keyword(keyword)
-        self.SEARCH_PAGE.get_the_second_search_result().click()
+        result = self.SEARCH_PAGE.get_the_second_search_result()
+        self.SEARCH_PAGE.click(result)
 
 
 class GLCareersSearchActions(SearchActions):
-    def __init__(self, driver):
-        self.SEARCH_PAGE = pages.GLCareersSearchPage(driver)
+    def __init__(self, browser):
+        self.SEARCH_PAGE = pages.GLCareersSearchPage(browser)
         self.SEARCH_PAGE.open()
 
     def print_first_found_job(self, job):
         self.search_by_keyword(job)
-        print(f'\nYour next opportunity to become QA in GlobalLogic is {self.SEARCH_PAGE.get_the_first_search_result().text}!')
+        print(f'\n'
+              f'Your next opportunity to become QA in GlobalLogic is '
+              f'{self.SEARCH_PAGE.get_the_first_search_result().text}!')
